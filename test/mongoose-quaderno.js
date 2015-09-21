@@ -35,6 +35,15 @@ describe('Mongoose Quaderno plugin', function () {
     })
   })
 
+  describe('#setLink() / #getLink()', function () {
+    it('should set / get the Quaderno contact permalink', function (done) {
+      var url = 'https://foo.bar/123456'
+      user.setLink(url)
+      user.getLink().should.equal(url)
+      done()
+    })
+  })
+
   describe('#hasInvoices()', function () {
     it('should return false if contact has no invoices', function (done) {
       var hasInvoices = user.hasInvoices()
