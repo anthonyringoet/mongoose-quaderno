@@ -6,13 +6,28 @@
 Mongoose plugin to manage [Quaderno](https://quaderno.io/) contacts and their invoices. Add it to your Mongoose models to store:
 
 - contact_id
+- permalink
 - invoices
 
 ## API
-@todo
+@todo Need to list it here, see [tests](https://github.com/anthonyringoet/mongoose-quaderno/blob/master/test/mongoose-quaderno.js)
 
 ## Usage
-@todo
+
+Install
+
+```bash
+$ npm install mongoose-quaderno
+```
+
+```javascript
+var quadernoContact = require('mongoose-quaderno')
+var SomeSchema = new mongoose.Schema({
+  // your schema stuff here
+})
+
+SomeSchema.plugin(quadernoContact)
+```
 
 ## License
 MIT

@@ -1,10 +1,16 @@
 {
   "name": "mongoose-quaderno",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Mongoose plugin to handle Quaderno.io contacts and their invoices",
   "main": "index.js",
   "scripts": {
     "test": "standard && mocha --recursive --reporter spec"
+  },
+  "homepage": "https://github.com/anthonyringoet/mongoose-quaderno",
+  "bugs": "https://github.com/anthonyringoet/mongoose-quaderno/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonyringoet/mongoose-quaderno"
   },
   "keywords": [
     "mongoose",
