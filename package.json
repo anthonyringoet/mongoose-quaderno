@@ -1,0 +1,36 @@
+{
+  "name": "mongoose-quaderno",
+  "version": "1.0.0",
+  "description": "A Mongoose plugin to handle Quaderno.io contacts and their invoices",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha --recursive --reporter spec"
+  },
+  "keywords": [
+    "mongoose",
+    "quaderno"
+  ],
+  "author": {
+    "name": "Anthony Ringoet",
+    "email": "anthonyringoet@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "database-cleaner": "^0.10.0",
+    "faker": "^3.0.1",
+    "mocha": "^2.3.3",
+    "should": "^7.1.0",
+    "standard": "^5.3.1"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1",
+    "moment": "^2.10.6",
+    "mongoose": "^4.1.7"
+  },
+  "standard": {
+    "ignore": [
+      "node_modules",
+      "test/**"
+    ]
+  }
+}
