@@ -1,6 +1,6 @@
 {
   "name": "mongoose-quaderno",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Mongoose plugin to handle Quaderno.io contacts and their invoices",
   "main": "index.js",
   "scripts": {
@@ -30,8 +30,10 @@
   },
   "dependencies": {
     "lodash": "^3.10.1",
-    "moment": "^2.10.6",
-    "mongoose": "^4.1.7"
+    "moment": "^2.10.6"
+  },
+  "peerDependencies": {
+    "mongoose": "4.x"
   },
   "standard": {
     "ignore": [
