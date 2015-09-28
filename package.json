@@ -22,15 +22,15 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "database-cleaner": "^0.10.0",
-    "faker": "^3.0.1",
-    "mocha": "^2.3.3",
-    "should": "^7.1.0",
-    "standard": "^5.3.1"
+    "database-cleaner": "0.10.0",
+    "faker": "3.0.1",
+    "mocha": "2.3.3",
+    "should": "7.1.0",
+    "standard": "5.3.1"
   },
   "dependencies": {
-    "lodash": "^3.10.1",
-    "moment": "^2.10.6"
+    "lodash": "3.10.1",
+    "moment": "2.10.6"
   },
   "peerDependencies": {
     "mongoose": "4.x"
