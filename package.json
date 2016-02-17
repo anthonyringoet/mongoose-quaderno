@@ -29,7 +29,7 @@
     "standard": "6.0.5"
   },
   "dependencies": {
-    "lodash": "4.4.0",
+    "lodash": "4.5.0",
     "moment": "2.11.1"
   },
   "peerDependencies": {
