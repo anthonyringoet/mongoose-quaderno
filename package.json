@@ -22,7 +22,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "database-cleaner": "^0.13.0",
+    "database-cleaner": "^1.0.0",
     "faker": "^3.0.1",
     "mocha": "^2.4.4",
     "should": "^8.4.0",
