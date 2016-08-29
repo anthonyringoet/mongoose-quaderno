@@ -33,7 +33,7 @@
     "moment": "^2.11.1"
   },
   "peerDependencies": {
-    "mongoose": "^4.x"
+    "mongoose": "^4.5.9"
   },
   "standard": {
     "ignore": [
